@@ -1,0 +1,96 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+h1 {
+	margin: none;
+	padding: none;
+	text-align: center;
+	font-size: 16px;
+}
+h2 {
+	text-align: center;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+#inputarea {
+	background-color: rgb(245, 245, 245);
+	width: 100%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	margin: none;
+	padding: 10px;
+	border: rgb(220, 220, 220) solid 1px;
+}
+
+#memeArea {
+	font-size: 50px;
+	font-family: "Impact";
+	color: white;
+	text-shadow: black 0px 0px 10px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.newDiv {
+	position: relative;
+}
+
+.toptxt {
+	position: absolute;
+	top: 35px;
+	left: 40px;
+}
+
+.bottomtxt {
+	position: absolute;
+	bottom: 35px;
+	left: 40px;
+}
+
+img {
+	width: 50vw;
+}
+
+.button {
+	background-color: rgb(144, 144, 204);
+	color: white;
+	border-radius: 5px;
+	position: relative;
+	border: none;
+	float: right;
+	right: 12%;
+	margin: 10px;
+	padding: 7px;
+}
+
+#imageUrl {
+	margin-left: 50px;
+	border-radius: 3px;
+	border: rgb(220, 220, 220) solid 1px;
+	width: 70%;
+	font-size: 12px;
+}
+#memeTextInputTop {
+	margin-left: 39px;
+	width: 70%;
+	border-radius: 3px;
+	border: rgb(220, 220, 220) solid 1px;
+	font-size: 12px;
+}
+
+#memeTextInputBtm {
+	margin-left: 20px;
+	width: 70%;
+	border-radius: 3px;
+	border: rgb(220, 220, 220) solid 1px;
+	font-size: 12px;
+}
+
+label {
+	font-size: 12px;
+	margin-left: 30px;
+}
